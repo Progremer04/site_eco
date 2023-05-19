@@ -1,0 +1,217 @@
+*{
+padding: 0;
+margin: 0;
+}
+header{
+width: 100%;
+height: 25vh;
+background-color: white;
+display: flex;
+flex-direction: column;
+position: fixed;
+top: 0;
+z-index: 9999;
+}
+.headerTop{
+width: 100%;
+height: 15%;
+/* background-color: bisque; */
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+.headerTopLeft{
+width: 30%;
+height: 100%;
+/* background-color: brown; */
+display: flex;
+flex-direction: row;
+justify-content: center;
+justify-content: space-around;
+align-items: center ;
+}
+.img1{
+width: 15px;
+height: 15px;
+}
+
+.headerTopRight{
+    width: 35%;
+    height: 100%;
+    /* background-color: rgb(203, 62, 62); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+padding: 5px 20px;
+display: flex;
+flex-direction: row;
+align-items: center;
+background-color: white;
+border-left: none;
+border-width:1px ;
+/* justify-content: space-around; */
+}
+.eng{
+border-right: none ;
+}
+
+
+
+
+
+.headerButtom{
+width: 100%;
+height: 85%;
+/* background-color: aqua; */
+background-color: rgb(250,250,250);
+
+display: flex;
+flex-direction: column;
+}
+
+.headerButtom1{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo_Div{
+width: 20%;
+height: 80%;
+/* background-color: gold; */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.logo_img{
+width: 40px;
+height: 40px;
+cursor: pointer;
+}
+.Buttons_Div{
+    width: 55%;
+height: 80%;
+    /* background-color: fuchsia; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn2{
+padding: 10px 20px;
+/* background-color: deeppink; */
+border: none;
+    background-color: rgb(250,250,250);
+
+}
+
+.panier_Div{
+width: 15%;
+height:80%;
+/* background-color: rgb(78, 177, 78); */
+display: flex;
+align-items: center;
+}
+.btn3{
+padding: 5px 30px;
+/* background-color: rgb(49, 122, 49); */
+background-color: white;
+border-width: 1px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+.img3{
+    width: 30px;
+    height: 30px;
+    margin-right: 5%;
+}
+
+.headerButtom2{
+width: 100%;
+height: 40%;
+display: flex;
+justify-content: center;
+
+}
+
+.categorie{
+width: 25%;
+height: 100%;
+}
+.btn_categories{
+/* padding: 15px 35px; */
+width: 100%;
+height: 100%;
+background-color: rgb(74, 74, 74);
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+.list{
+    width: 30px;
+    height: 30px;
+}
+.rad{
+border-radius: 50%;
+background-color  : white;
+}
+
+
+.searchBar_Div{
+width: 60%;
+height: 100%;
+background-color: rgb(20, 20, 20);
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.btn4{
+ padding:0 40px;
+height: 85%;
+padding: 10px 40px;
+background-color: white;
+position: relative;
+border-width: 1px;
+
+}
+
+.relative{
+position: absolute;
+transform: translate(-50% );
+left: 100%;
+top:50%;
+}
+.searchBar{
+padding:0 200px;
+height: 85%;
+border-width: 1px;
+border-color: gray;
+}
+.btn_search{
+    /* padding: 30px; */
+    height: 85%;
+    background-color: red;
+    border: none;
+    }
+.img4{
+width: 75%;
+height: 60%;
+}
+main{
+width: 100%;
+height:max-content;
+margin-top: 150px;
+}
